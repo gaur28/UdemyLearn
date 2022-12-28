@@ -1,0 +1,97 @@
+#hero{
+    height: 800px;
+    background-image: url("images/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+#hero-container{
+    width: 900px;
+    background-color: rgba(51, 47, 47, 0.8);
+    box-shadow: 2px 4px 8px rgb(67, 68 , 68);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0 ;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+
+}
+#hero-container h1{
+    color: white;
+    text-transform:uppercase;
+    font-family: "Railway",sans-serif; 
+    font-size: 30px;
+    margin: 0;
+    text-shadow: 2px 2px 4px black;
+
+}
+#hero-container p{
+    color: white;
+    text-transform:uppercase ;
+    font-size: 15px;
+    font-family: "Railway",sans-serif;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 15px;
+    margin-bottom: 32px;
+}
+#hero-container a{
+    text-decoration: none;
+    color: black;
+    font-family: "Railway",sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: yellow;
+   
+}
+#hero-container a:hover{
+    
+    color: white;
+    background-color: blue;
+    box-shadow: 2px 2px 4px black;
+    text-transform: uppercase;
+
+
+}
+
+#highlights{
+    text-align: center;
+    padding: 24px;
+    background: linear-gradient(45deg, rgb(227,255,253),rgb(202,243,240));
+}
+#highlights h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+    margin: 24px;
+
+}
+#destinations{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+.destination{
+    margin: 0 20px;
+
+}
+.destination p{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+
+}
+.destination img{
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(67, 68 , 68);
+    border-radius: 8px;
+    object-fit: cover;
+}
+.destination strong{
+    color: rgb(0, 160, 117);
+}

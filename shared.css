@@ -1,0 +1,82 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+.container{
+    
+    margin-right: 150px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    box-sizing: border-box;
+    
+}
+#page-logo a {
+  padding: 10px;
+  font-family: "oleo Script", sans-serif;
+  color: rgb(245, 243, 160);
+  font-size: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#page-logo a:hover {
+  color: red;
+  text-shadow: 1px 1px 2px black;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header ul {
+  list-style: none;
+  width: 350px;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+
+}
+header li{
+    width: 200px;
+    font-size: 20px;
+    text-align: right;
+    color: rgb(245, 243, 160);
+
+
+}
+header li:hover{
+    color:red;
+    text-shadow: 1px 1px 2px black;
+}
+.container a{
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    padding: 12px;
+
+}
+
+footer{
+    background: linear-gradient(70deg, rgb(24,24,24), rgb(25,29,29));
+}
+.footer-icon ul{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-icon li{
+    width: 40px;
+    height: 40px;
+    padding:  40px;
+}
+.footer-icon img{
+    width: 100%;
+    height:100% ;
+}
