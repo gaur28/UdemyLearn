@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+    <form action="">
+      <h2>How can we help you?</h2>
+      <div class="contact-form">
+        <label for="username">Your Name</label>
+        <input type="text" id="user-name" name="username" required />
+      </div>
+      <div class="contact-form">
+        <label for="email">Your Email Adress</label>
+        <input type="email" id="user-email" name="email" required/>
+      </div>
+      <div class="contact-form">
+        <label for="phoneno">Your Phone Number</label>
+        <input type="number" id="phone-no" name="phoneno" maxlength="10" required />
+      </div>
+      <div class="contact-form">
+        <label for="textarea">Your Message</label>
+        <textarea name="textarea" id="message" cols="20" rows="10" minlength="200" ></textarea>
+      </div>
+      <div class="selector">
+        <label for="list">How did you find us</label>
+        <select name="list" id="list-selection" required>
+          <option value="web search" >Web Search</option>
+            <option value="ads">Ads</option>
+            <option value="Freind">Freind</option>
+          
+        </select>
+      </div>
+
+      <div class="reply">
+        <h2>How Should We reply</h2>
+        <div><input type="radio" id="call-me" name="contact-me" value="phone"  checked/>
+        <label for="contact-me">Call me</label></div>
+        <div><input type="radio" id="email-me" name="contact-me" value="email" />
+        <label for="contact-me">Send me email</label></div>
+        <div><input type="radio" id="no-reply" name="contact-me" value="no reply" />
+            <label for="contact-me">Don't reply</label></div>
+      </div>
+      <div class="yes">
+        <input type="checkbox" id="terms" name="terms-condition" checked />
+        <label for="terms-condition">Accept Terms</label>
+      </div>
+      <div class="btn-container">
+        <button type="reset" class="btn">clear</button>
+        <button type="submit" class="btn">Submit</button>
+      </div>
+    </form>
+</main>
+     </body>
+</html>
