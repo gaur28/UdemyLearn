@@ -30,6 +30,12 @@ form{
 #product-info input{
     width: 50;
 }
+.warning-input{ 
+    background-color: rgb(234, 127, 127);
+} 
+.warning{
+    color: rgb(211, 109, 26);
+}
 
 form button{
     height: 2rem;
