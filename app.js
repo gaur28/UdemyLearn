@@ -17,7 +17,7 @@ function updateReaminingChar(event){
        
        // console.dir(productInputElement);
          remainingChar.classList.add('warning');
-         productInputElement.classList.add("warning");
+         productInputElement.classList.add("warning");//check the problem in the doubt session tomorrow.
         // console.log(remainingCharacter);
     }
      else{
