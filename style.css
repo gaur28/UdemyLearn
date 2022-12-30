@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+main{
+    padding-top: 2rem;
+    padding-left: 5rem;
+}
+form{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    padding: 2rem 2rem;
+    padding-right: 4rem;
+    width: 85%;
+    background-color: rgb(236, 236, 139);
+    text-align: left;
+    border-radius: 6px ;
+}
+#product-info {
+    margin: right 6rem ;
+  display: flex;
+  flex-direction: column; 
+  padding-bottom: 1rem; 
+}
+#product-info label{
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+}
+#product-info input{
+    width: 50;
+}
+
+form button{
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(182, 182, 25);
+}
+
