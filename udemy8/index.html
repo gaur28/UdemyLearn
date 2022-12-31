@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Play Tic Tac Toe</h1>
+        <p>
+            built with HTML, CSS, Javascript
+        </p>
+    </header>
+    <main>
+        <aside>
+            <h2>Choose Your Name</h2>
+
+            <form action="">
+                <div>
+                    <label for="player-name">Player Name</label>
+                    <input type="text" name="player-name" id="playername">
+                </div>
+                <div>
+                    <button type="button">Cancel</button>
+                    <button type="submit">Confirm</button>
+                </div>
+            </form>
+        </aside>
+        <section id="game-config">
+            <ol>
+                <li>
+                    <article>
+                        <h2>Player 1</h2>
+                        <h3>PLayer Name</h3>
+                        <p>X</p>
+                        <button>Edit</button>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h2>Player 2</h2>
+                        <h3>PLayer Name</h3>
+                        <p>O</p>
+                        <button>Edit</button>
+                    </article>
+                </li>
+            </ol>
+            <button >Start New Game</button>
+        </section>
+        <section id="active-game">
+            <article>
+                <h3>You Won, <span id="winner-name">Player Name</span>!</h3>
+                <p>click "start new Game'</p>
+            </article>
+            <p>It's Your turn <span id="active-player-name"> </span>!</p>
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
